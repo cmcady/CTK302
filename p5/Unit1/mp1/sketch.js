@@ -35,6 +35,9 @@ function draw() {
     ellipse(154, 76, 50, 60);
     ellipse(178, 76, 50, 60);
 
+    fill('black')
+      text('Chad Johnson is a weatherman who is possessed by Thor the God of Thunder. When he takes on his possessed form he can control lighting and can also control the time of day. He uses his powers against opposing weather stations.', 5, 20, 180, 120);
+
     //grass
     fill('green');
     rect(0, 380, 400, 20);
@@ -211,5 +214,5 @@ function draw() {
 
 
     print("debugger");
-  
+
 }
